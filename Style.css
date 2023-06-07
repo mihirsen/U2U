@@ -1,0 +1,992 @@
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 1%;
+  border-radius: 50%;
+  margin-left: 90%;
+}
+.link {
+  text-decoration: none;
+}
+.Back {
+  color: #e808b0;
+  margin: 1%;
+  cursor: pointer;
+}
+.sign-in {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  left: 683px;
+  top: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  width: 715px;
+  height: 332px;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 25%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #ffa0e9;
+  border-radius: 40px;
+}
+.email {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 530px;
+  height: 62px;
+  margin-bottom: 18%;
+  margin-left: 14%;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+.pass {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  margin-left: 14%;
+  margin-top: 5%;
+  position: absolute;
+  width: 530px;
+  height: 62px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 10%;
+  background: #ffa0e9;
+  border-radius: 20px;
+  border-color: #ffa0e9;
+  width: 115px;
+  height: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-btn:hover {
+  background: #eb61cb;
+  cursor: pointer;
+}
+.pic {
+  position: absolute;
+  width: 400px;
+  height: 530px;
+  left: 744px;
+}
+.disclaimer {
+  position: absolute;
+  width: 388px;
+  height: 30px;
+  left: 730px;
+  top: 500px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.create {
+  color: rgba(255, 7, 197, 1);
+  cursor: pointer;
+}
+.create:hover {
+  color: rgb(201, 7, 156);
+}
+
+/* Join in */
+
+.individual {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  left: 550px;
+  top: 60px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.Enterprise {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  position: absolute;
+  background: #ffa0e9;
+  border-radius: 20px;
+  border-color: #ffa0e9;
+  width: 175px;
+  margin-top: 1.8%;
+  height: 52px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 700px;
+}
+.Enterprise:hover {
+  background: #e97ed0;
+  cursor: pointer;
+}
+.container-1 {
+  position: absolute;
+  width: 715px;
+  height: 450px;
+  left: 362px;
+  top: 140px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #ffa0e9;
+  border-radius: 40px;
+}
+
+.get-start-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 52%;
+  background: #ffa0e9;
+  border-radius: 20px;
+  border-color: #ffa0e9;
+  width: 160px;
+  height: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.get-start-btn:hover {
+  background: #e97ed0;
+  cursor: pointer;
+}
+
+#name {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 62px;
+  left: 40px;
+  top: 20px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+#last-name {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 62px;
+  left: 380px;
+  top: 20px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+#email-id {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 645px;
+  height: 62px;
+  top: 100px;
+  left: 35px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+#position {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 62px;
+  left: 380px;
+  top: 180px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+#company {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 62px;
+  left: 40px;
+  top: 180px;
+
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+#message {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 640px;
+  height: 100px;
+  left: 40px;
+  top: 260px;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+.disclaimer-1 {
+  position: absolute;
+  width: 388px;
+  height: 30px;
+  left: 770px;
+  top: 590px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.pic-1 {
+  position: absolute;
+  width: 400px;
+  height: 530px;
+  left: 773px;
+}
+
+/*  DashBoard */
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+  border-radius: 50%;
+}
+* {
+  margin: 0;
+}
+.background {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsehkr3Gr9bfHJ2JZudH2z2jUqrTt0ln9eJw&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.Services {
+  position: absolute;
+  width: 379px;
+  height: 65px;
+  left: 563.28px;
+  top: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.2323px;
+}
+.view-all {
+  position: absolute;
+  width: 92px;
+  height: 36px;
+  left: 1270px;
+  top: 130px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.view-all:hover {
+  color: #e808b0;
+  cursor: pointer;
+}
+.Services-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  width: 1415px;
+  height: 332px;
+  background-color: hwb(313 81% 1%);
+  margin-top: 11%;
+  margin-left: 5%;
+  border-radius: 40px 40px 40px 40px;
+}
+
+/* Individual */
+.Enterprise1 {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  left: 750px;
+  top: 55px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.individual1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  position: absolute;
+  background: #ffa0e9;
+  border-radius: 20px;
+  border-color: #ffa0e9;
+  width: 175px;
+  margin-top: 1.8%;
+  height: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 520px;
+}
+.individual1:hover {
+  background: #e97ed0;
+  cursor: pointer;
+}
+
+/*  DashBoard */
+.foldable-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.foldable-container.open {
+  height: auto;
+}
+
+.foldable-header {
+  font-weight: bold;
+  margin-left: 85%;
+}
+
+.foldable-content {
+  display: none;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.foldable-container.open .foldable-content {
+  display: block;
+}
+
+.container-dash {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 208px;
+  top: 437.79px;
+  background-image: url("./Issue6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 15%;
+  margin-left: 30%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.container-dash1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 508px;
+  top: 437.79px;
+  background-image: url("./Issue3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content1 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 8%;
+  margin-left: 17%;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 808px;
+  top: 437.79px;
+  background-image: url("./Issue2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content2 {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  margin-top: 16%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 1108px;
+  top: 437.79px;
+  background-image: url("./Issue5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content3 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 09%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.container-dash5 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 210px;
+  top: 223.79px;
+  /* background-color: rgb(186, 74, 74); */
+  background-image: url("./Issue1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid #000000; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content5 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 15%;
+  margin-left: 20%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* color: #e808b0; */
+  color: white;
+}
+.container-dash6 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 510px;
+  top: 223.79px;
+  background-image: url("./Issue2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+.container-dash-content6 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 5%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash7 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 810px;
+  top: 223.79px;
+  background-image: url("./Issue3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content7 {
+  position: absolute;
+  width: 167px;
+  height: 36px;
+  margin-top: 5%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash8 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  left: 1110px;
+  top: 223.79px;
+  background-image: url("./Issue6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content8 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 10%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.container-dash9 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 300px;
+  top: 500.79px;
+  background-image: url("./Issue1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content9 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 10%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash10 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 900px;
+  top: 300.79px;
+  background-image: url("./Issue2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content10 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 15%;
+  margin-left: 15%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.container-dash11 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 600px;
+  top: 300.79px;
+  background-image: url("./Issue3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content11 {
+  position: absolute;
+  width: 187px;
+  height: 36px;
+  margin-top: 10%;
+  margin-left: 25%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 300px;
+  top: 300.79px;
+  background-image: url("./Issue6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content12 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 10%;
+  margin-left: 30%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.container-dash13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  top: 300.79px;
+  background-image: url("./Issue2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content13 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 25%;
+  margin-left: 35%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash14 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  top: 500.79px;
+  background-image: url("./Issue6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content14 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 25%;
+  margin-left: 35%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash15 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 900px;
+  top: 500.79px;
+  background-image: url("./Issue5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content15 {
+  position: absolute;
+  width: 167px;
+  height: 36px;
+  margin-top: 25%;
+  margin-left: 30%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.container-dash16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 173px;
+  right: 600px;
+  top: 500.79px;
+  background-image: url("./Issue6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0135px;
+}
+
+.container-dash-content16 {
+  position: absolute;
+  width: 67px;
+  height: 36px;
+  margin-top: 25%;
+  margin-left: 35%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.closed {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 30%;
+  margin-top: 15%;
+  font-weight: 700;
+  color: #060505;
+}
+
+.error {
+  font-size: 80px;
+  margin-left: 30%;
+}
+
+#Appointment-img {
+  margin-left: 10%;
+}
+#AppointmentImg {
+  width: 900px;
+  margin: auto;
+}
+
+.BookAppointment {
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #ffa0e9;
+  color: white;
+  border: 0;
+  top: 30px;
+}
+
+#appointment {
+  position: absolute;
+  height: 550px;
+  width: 300px;
+  margin-top: 1%;
+  right: 200px;
+  top: 40px;
+  background-color: white;
+  padding-top: 20px;
+}
+.mainsec {
+  position: relative;
+}
+.location {
+  align-items: center;
+  padding: 9.7909px 12.2386px;
+  gap: 6.12px;
+  width: 213px;
+  height: 43.58px;
+  border: 0.611932px solid #828282;
+  border-radius: 6.34103px;
+}
+.mess {
+  align-items: center;
+  padding: 9.7909px 12.2386px;
+  gap: 6.12px;
+  width: 213px;
+  height: 55.58px;
+  border: 0.611932px solid #828282;
+  border-radius: 6.34103px;
+}
+.date {
+  width: 100px;
+  height: 40px;
+  margin-left: 8%;
+}
+.time {
+  width: 120px;
+  height: 40px;
+}
